@@ -1,7 +1,7 @@
 prayer_beads = ["Amber", "Quartz", "Kuk", "Bakelite", "Labradorite"]
-prices = [1500, 120, 80, 200, 250]
+prices = [10, 7, 8, 5, 6]
 weights = [20, 25, 22, 18, 24]
-strings = ["Silk", "Nylon", "Cotton", "Nylon", "Silk"]
+strings = ["Silk", "Nylon", "Cotton", "Supreme Silk", "Supreme Nylon"]
 quality = ["Premium", "Standard", "High", "Collector", "Limited"]
 tassels = ["Gold", "Silver", "Brown", "Black", "Blue"]
 
@@ -24,6 +24,7 @@ def show_details(name):
             print("Tassel:", tassels[i])
             return
     print("Prayer beads not found.")
+
 
 print("We have:", ", ".join(prayer_beads))
 
